@@ -1,0 +1,33 @@
+{
+  "name": "radiansvisualisations",
+  "version": "0.2.0",
+  "description": "Visualisation for Radians",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UoBEdTechSTEMM/RadiansVisualisations.git"
+  },
+  "author": "UoBEdTechSTEMM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UoBEdTechSTEMM/RadiansVisualisations/issues"
+  },
+  "homepage": "https://github.com/UoBEdTechSTEMM/RadiansVisualisations#readme",
+  "devDependencies": {
+    "standard": "^7.1.2"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "two.js": "^0.6.0"
+  },
+  "standard": {
+    "globals": [
+      "$",
+      "Two",
+      "radians"
+    ]
+  },
+  "scripts": {
+    "test": "standard"
+  }
+
+}
